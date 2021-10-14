@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color:peru ;
+}
+
+
+.emoji{
+    font-size: 210px;
+    /* font-style: italic; */
+    color:#5F9EA0;
+    cursor: pointer;
+    user-select: none;
+}
+
+#tx{
+    text-align: center;
+    font-size: 50px;
+}
+#em{
+    align-items: center;
+}
+.closed {
+    display: none;
+}
+
+.open {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+.show {
+    display: none;
+}
